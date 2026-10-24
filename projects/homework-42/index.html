@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW-42 | TypeScript House</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./dist/index.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <span class="eyebrow">GOIT · TYPESCRIPT · HOMEWORK 42</span>
+      <h1>Welcome <span>Home.</span></h1>
+      <p>
+        A small interactive demonstration of abstract classes,
+        inheritance, encapsulation, and object relationships.
+      </p>
+    </header>
+
+    <section class="dashboard">
+      <div class="house-card">
+        <div class="scene">
+          <div class="roof"></div>
+          <div class="building">
+            <div class="window"></div>
+            <div class="door">
+              <div class="knob"></div>
+            </div>
+            <div class="window"></div>
+          </div>
+          <div class="ground"></div>
+        </div>
+
+        <div class="stats">
+          <div>
+            <span>DOOR STATUS</span>
+            <strong id="door-status" class="closed">CLOSED</strong>
+          </div>
+          <div>
+            <span>TENANTS INSIDE</span>
+            <strong id="tenant-count">0</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="control-card">
+        <span class="eyebrow">ACCESS CONTROL</span>
+        <h2>House security</h2>
+        <p>
+          Only a key with the correct signature can unlock
+          the door and allow the person to enter.
+        </p>
+
+        <div class="key-info">
+          <span>HOUSE KEY SIGNATURE</span>
+          <strong id="key-signature">...</strong>
+        </div>
+
+        <div class="buttons">
+          <button id="wrong-key-button" class="secondary">
+            Try wrong key
+          </button>
+          <button id="correct-key-button" class="primary">
+            Unlock with correct key
+          </button>
+          <button id="enter-button" class="primary">
+            Enter the house
+          </button>
+          <button id="reset-button" class="secondary">
+            Reset simulation
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="log-card">
+      <div class="log-heading">
+        <h2>Activity log</h2>
+        <span>LIVE SIMULATION</span>
+      </div>
+      <ul id="activity-log"></ul>
+    </section>
+
+    <footer>HW-42-TypeScript · GoIT</footer>
+  </main>
+</body>
+</html>
