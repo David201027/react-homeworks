@@ -1,0 +1,17 @@
+.notification {
+  padding: 30px 20px;
+  border: 2px dashed #e7e5e4;
+  border-radius: 16px;
+  color: #78716c;
+  text-align: center;
+}
+
+.notification-icon {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 30px;
+}
+
+.notification p {
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+.list {
+  padding: 0;
+  list-style: none;
+}
+
+.review {
+  margin-bottom: 20px;
+  padding: 22px;
+  border-radius: 12px;
+  background: #1e293b;
+  overflow-wrap: anywhere;
+}
+
+.review h3 {
+  color: #fbbf24;
+}

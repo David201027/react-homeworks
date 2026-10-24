@@ -1,0 +1,2 @@
+@keyframes modalAppear{0%{opacity:0;transform:translateY(25px) scale(.95)}to{opacity:1;transform:translateY(0) scale(1)}}@keyframes overlayAppear{0%{opacity:0}to{opacity:1}}@media (prefers-reduced-motion:reduce){.modal-content,.modal-overlay{animation:none!important}}
+/*# sourceMappingURL=main.15ed27c3.css.map*/

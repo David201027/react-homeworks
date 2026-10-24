@@ -1,0 +1,34 @@
+.header {
+  background: #151e32;
+  border-bottom: 1px solid #334155;
+}
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  color: #fbbf24;
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.links {
+  display: flex;
+  gap: 25px;
+}
+
+.link {
+  color: #cbd5e1;
+}
+
+.active {
+  color: #fbbf24;
+  font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.hero {
+  max-width: 850px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+.eyebrow {
+  color: #38bdf8;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.hero h1 {
+  font-size: clamp(40px, 7vw, 75px);
+  letter-spacing: -3px;
+  line-height: 1.1;
+}
+
+.hero p {
+  max-width: 570px;
+  margin: 25px auto;
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+.hero a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 16px 28px;
+  border-radius: 10px;
+  background: #38bdf8;
+  color: #0b1220;
+  text-decoration: none;
+  font-weight: 800;
+}

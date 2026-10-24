@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f0e8;
+  color: #292524;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 35px 20px;
+}
+
+.feedback-card {
+  width: 100%;
+  max-width: 560px;
+  padding: 38px;
+  border-radius: 24px;
+  background: #ffffff;
+  box-shadow: 0 20px 60px rgba(68, 48, 30, 0.1);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 38px;
+  color: #92400e;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.brand-icon {
+  font-size: 28px;
+}
+
+.description {
+  margin: -4px 0 22px;
+  color: #78716c;
+  line-height: 1.6;
+}
+
+.footer {
+  margin: 10px 0 0;
+  color: #a8a29e;
+  font-size: 13px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .feedback-card {
+    padding: 25px 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.page {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 35px;
+}
+
+.input {
+  width: 100%;
+  max-width: 450px;
+  padding: 14px;
+  border: 1px solid #475569;
+  border-radius: 9px;
+  background: #1e293b;
+  color: white;
+}
+
+.button {
+  padding: 14px 25px;
+  border: none;
+  border-radius: 9px;
+  background: #fbbf24;
+  color: #111827;
+  font-weight: bold;
+}

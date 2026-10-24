@@ -1,0 +1,56 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.heading {
+  margin-bottom: 35px;
+}
+
+.heading span {
+  color: #38bdf8;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.heading h1 {
+  font-size: clamp(38px, 6vw, 56px);
+  margin: 12px 0;
+}
+
+.heading p {
+  color: #94a3b8;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 25px;
+  align-items: start;
+}
+
+.panel {
+  padding: 30px;
+  border: 1px solid #29354b;
+  border-radius: 18px;
+  background: #151e30;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+.error {
+  color: #fca5a5;
+}
+
+@media (max-width: 750px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    padding: 22px;
+  }
+}

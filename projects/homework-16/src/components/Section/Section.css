@@ -1,0 +1,10 @@
+.section {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  margin: 0 0 18px;
+  color: #292524;
+  font-size: 24px;
+  font-weight: 700;
+}

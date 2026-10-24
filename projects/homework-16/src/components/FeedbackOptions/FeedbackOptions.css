@@ -1,0 +1,48 @@
+.feedback-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.feedback-button {
+  flex: 1;
+  min-width: 110px;
+  padding: 14px 18px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.feedback-button:hover {
+  transform: translateY(-3px);
+}
+
+.feedback-good {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.feedback-neutral {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.feedback-bad {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.feedback-good:hover {
+  background: #bbf7d0;
+}
+
+.feedback-neutral:hover {
+  background: #fde68a;
+}
+
+.feedback-bad:hover {
+  background: #fecaca;
+}
